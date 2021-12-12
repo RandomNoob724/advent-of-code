@@ -57,7 +57,6 @@ const oxygenGeneratorRating = (data) => {
       );
     }
   }
-  console.log(oxygenData[0]);
   return parseInt(oxygenData[0], 2);
 };
 
@@ -81,7 +80,7 @@ const co2GeneratorRating = (data) => {
       );
     }
   }
-  console.log(co2Data[0]);
+
   return parseInt(co2Data[0], 2);
 };
 
